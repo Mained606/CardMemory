@@ -503,6 +503,8 @@ MonoBehaviour:
   maxTimer: 60
   firstCard: {fileID: 0}
   secondCard: {fileID: 0}
+  timerText: {fileID: 966930437}
+  scoreText: {fileID: 1292055699}
   isProcessingMatch: 0
 --- !u!1 &832575517
 GameObject:

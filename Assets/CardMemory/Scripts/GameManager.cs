@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private GameObject firstCard;
     [SerializeField] private GameObject secondCard;
+    
+    [SerializeField] private TextMeshProUGUI timerText;
+    [SerializeField] private TextMeshProUGUI scoreText;
     
     private bool gameOver = false;
     public bool isProcessingMatch = false; // 정답 확인 중인지 여부
@@ -34,14 +38,16 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        maxTimer += (level * 10f);
-        timer = maxTimer;
+        InitializeTimer();
         selectCard();
+        UpdateUI();
     }
 
     private void Update()
     {
         timer -= Time.deltaTime;
+        UpdateUI();
+        
         if (timer <= 0)
         {
             //게임 오버
@@ -129,6 +135,8 @@ public class GameManager : MonoBehaviour
                 firstCard = null;
                 secondCard = null;
                 
+                UpdateUI();
+                
                 StartCoroutine(WaitAndCheckAllCardsMatched(0.6f));
             }
             else
@@ -171,6 +179,21 @@ public class GameManager : MonoBehaviour
     public void LevelUp()
     {
         level++;
-        selectCard(); // 새 카드 생성
+        InitializeTimer(); // 타이머 초기화
+        selectCard();
+        UpdateUI();
+    }
+    
+    private void InitializeTimer()
+    {
+        maxTimer = 60f + (level * 10f); // 레벨마다 타이머 증가
+        timer = maxTimer;
+    }
+    
+    private void UpdateUI()
+    {
+        // 시간 및 점수 표시
+        timerText.text = $"Time: {Mathf.Max(0, (int)timer)} sec";
+        scoreText.text = $"Score: {score}";
     }
 }
