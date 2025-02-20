@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1661f3a1256cd13419178c252a74bd42, type: 3}
+  m_Name: CardListData
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 1"
+    suitedName: Spades
+    cardNumber: 1
+    frontSprite: {fileID: 430694837, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 2"
+    suitedName: Spades
+    cardNumber: 2
+    frontSprite: {fileID: 1665058529, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 3"
+    suitedName: Spades
+    cardNumber: 3
+    frontSprite: {fileID: 1521539092, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 4"
+    suitedName: Spades
+    cardNumber: 4
+    frontSprite: {fileID: 79347307, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 5"
+    suitedName: Spades
+    cardNumber: 5
+    frontSprite: {fileID: -979565968, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 6"
+    suitedName: Spades
+    cardNumber: 6
+    frontSprite: {fileID: -160316691, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 7"
+    suitedName: Spades
+    cardNumber: 7
+    frontSprite: {fileID: -793767331, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 8"
+    suitedName: Spades
+    cardNumber: 8
+    frontSprite: {fileID: -898083896, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 9"
+    suitedName: Spades
+    cardNumber: 9
+    frontSprite: {fileID: -522777914, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 10"
+    suitedName: Spades
+    cardNumber: 10
+    frontSprite: {fileID: -940879822, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 11"
+    suitedName: Spades
+    cardNumber: 11
+    frontSprite: {fileID: -835129265, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 12"
+    suitedName: Spades
+    cardNumber: 12
+    frontSprite: {fileID: 1542795216, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uC2A4\uD398\uC774\uB4DC 13"
+    suitedName: Spades
+    cardNumber: 13
+    frontSprite: {fileID: -379108809, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 1"
+    suitedName: Hearts
+    cardNumber: 1
+    frontSprite: {fileID: -1507327998, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 2"
+    suitedName: Hearts
+    cardNumber: 2
+    frontSprite: {fileID: 4468677, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 3"
+    suitedName: Hearts
+    cardNumber: 3
+    frontSprite: {fileID: -2142259051, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 4"
+    suitedName: Hearts
+    cardNumber: 4
+    frontSprite: {fileID: -2028919831, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 5"
+    suitedName: Hearts
+    cardNumber: 5
+    frontSprite: {fileID: -2025752240, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 6"
+    suitedName: Hearts
+    cardNumber: 6
+    frontSprite: {fileID: 935387169, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 7"
+    suitedName: Hearts
+    cardNumber: 7
+    frontSprite: {fileID: -1611251245, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 8"
+    suitedName: Hearts
+    cardNumber: 8
+    frontSprite: {fileID: 406710157, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 9"
+    suitedName: Hearts
+    cardNumber: 9
+    frontSprite: {fileID: 2031772566, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 10"
+    suitedName: Hearts
+    cardNumber: 10
+    frontSprite: {fileID: -777151281, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 11"
+    suitedName: Hearts
+    cardNumber: 11
+    frontSprite: {fileID: 1003455634, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 12"
+    suitedName: Hearts
+    cardNumber: 12
+    frontSprite: {fileID: -775747939, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD558\uD2B8 13"
+    suitedName: Hearts
+    cardNumber: 13
+    frontSprite: {fileID: 430694837, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 1"
+    suitedName: Diamonds
+    cardNumber: 1
+    frontSprite: {fileID: 2084281485, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 2"
+    suitedName: Diamonds
+    cardNumber: 2
+    frontSprite: {fileID: -596323093, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 3"
+    suitedName: Diamonds
+    cardNumber: 3
+    frontSprite: {fileID: 1897809684, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 4"
+    suitedName: Diamonds
+    cardNumber: 4
+    frontSprite: {fileID: -849082104, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 5"
+    suitedName: Diamonds
+    cardNumber: 5
+    frontSprite: {fileID: 1857873166, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 6"
+    suitedName: Diamonds
+    cardNumber: 6
+    frontSprite: {fileID: 924573097, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 7"
+    suitedName: Diamonds
+    cardNumber: 7
+    frontSprite: {fileID: 1948352709, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 8"
+    suitedName: Diamonds
+    cardNumber: 8
+    frontSprite: {fileID: -750311448, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 9"
+    suitedName: Diamonds
+    cardNumber: 9
+    frontSprite: {fileID: 1546006993, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 10"
+    suitedName: Diamonds
+    cardNumber: 10
+    frontSprite: {fileID: -1916793661, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 11"
+    suitedName: Diamonds
+    cardNumber: 11
+    frontSprite: {fileID: -935795708, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 12"
+    suitedName: Diamonds
+    cardNumber: 12
+    frontSprite: {fileID: -421555023, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uB2E4\uC774\uC544\uBAAC\uB4DC 13"
+    suitedName: Diamonds
+    cardNumber: 13
+    frontSprite: {fileID: 678985810, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 1"
+    suitedName: Clubs
+    cardNumber: 1
+    frontSprite: {fileID: 44835098, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 2"
+    suitedName: Clubs
+    cardNumber: 2
+    frontSprite: {fileID: 391020794, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 3"
+    suitedName: Clubs
+    cardNumber: 3
+    frontSprite: {fileID: 1163797461, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 4"
+    suitedName: Clubs
+    cardNumber: 4
+    frontSprite: {fileID: 737229673, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 5"
+    suitedName: Clubs
+    cardNumber: 5
+    frontSprite: {fileID: -1743236207, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 6"
+    suitedName: Clubs
+    cardNumber: 6
+    frontSprite: {fileID: -2085549236, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 7"
+    suitedName: Clubs
+    cardNumber: 7
+    frontSprite: {fileID: 1364095309, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 8"
+    suitedName: Clubs
+    cardNumber: 8
+    frontSprite: {fileID: -1154450793, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 9"
+    suitedName: Clubs
+    cardNumber: 9
+    frontSprite: {fileID: 671364538, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 10"
+    suitedName: Clubs
+    cardNumber: 10
+    frontSprite: {fileID: 257338843, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 11"
+    suitedName: Clubs
+    cardNumber: 11
+    frontSprite: {fileID: 744176261, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 12"
+    suitedName: Clubs
+    cardNumber: 12
+    frontSprite: {fileID: -391341823, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
+  - cardName: "\uD074\uB7EC\uBE0C 13"
+    suitedName: Clubs
+    cardNumber: 13
+    frontSprite: {fileID: 1144756639, guid: e1c3c15d9962e4946a642bedb6d9c5c1, type: 3}
+    backSprite: {fileID: 21300000, guid: 593f9673d2363154b838b943cfc0cbbd, type: 3}
