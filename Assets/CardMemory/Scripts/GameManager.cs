@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI levelText;
     
     private bool gameOver = false;
     public bool isProcessingMatch = false; // 정답 확인 중인지 여부
@@ -60,7 +61,6 @@ public class GameManager : MonoBehaviour
                     highScore = score;
                     
                     // Ui 보여줌
-                    
                 }
             }
         }
@@ -125,16 +125,7 @@ public class GameManager : MonoBehaviour
                 // 레벨 만큼 스코어 증가
                 score += level;
                 
-                // 정답시 카드 삭제
-                firstCardData.SetMatched();
-                secondCardData.SetMatched();
-                
-                firstCard = null;
-                secondCard = null;
-                
-                UpdateUI();
-                
-                StartCoroutine(WaitAndCheckAllCardsMatched(0.6f));
+                StartCoroutine(HandleCorrectMatch(firstCardData, secondCardData));
             }
             else
             {
@@ -143,6 +134,22 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+    
+    // 카드 정답
+    private IEnumerator HandleCorrectMatch(Card first, Card second)
+    {
+        yield return new WaitForSeconds(0.5f);
+        first.SetMatched();
+        second.SetMatched();
+        
+        firstCard = null;
+        secondCard = null;
+        
+        UpdateUI();
+        
+        StartCoroutine(WaitAndCheckAllCardsMatched(0.6f));
+    }
+    
     private IEnumerator FlipBackAfterDelay(Card first, Card second)
     {
         yield return new WaitForSeconds(1f);
@@ -205,5 +212,6 @@ public class GameManager : MonoBehaviour
         // 시간 및 점수 표시
         timerText.text = $"Time: {Mathf.Max(0, (int)timer)} sec";
         scoreText.text = $"Score: {score}";
+        levelText.text = $"Level: {level}";
     }
 }

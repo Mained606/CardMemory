@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe8921dc-02e7-4726-9aa8-a91be542ab93" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CardMemory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CardMemory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CardMemory/Scripts/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardMemory/Scripts/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CardMemory/Scripts/CardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardMemory/Scripts/CardManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CardMemory/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CardMemory/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
