@@ -67,15 +67,7 @@ public class CardManager : MonoBehaviour
         }
     }
     
-    public void RemoveCardFromList(GameObject card)
-    {
-        if (cards.Contains(card))
-        {
-            cards.Remove(card);
-        }
-    }
-    
-    private void ClearCards()
+    public void ClearCards()
     {
         foreach (var card in cards)
         {

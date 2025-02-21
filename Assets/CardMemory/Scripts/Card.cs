@@ -7,6 +7,7 @@ public class Card : MonoBehaviour
     public Image backImage;
     public CardData cardData;
     public bool flipped = false;
+    public bool isMatched = false; // 매치 여부 플래그
     
     // 마우스 클릭 시 카드 플립(토글)
     public void FlipCard()
@@ -20,7 +21,6 @@ public class Card : MonoBehaviour
     
         GameManager.instance.SelectedCard(this.gameObject);
     }
-
     
     // 카드 매니저에서 데이터를 전달받는 함수
     public void SetCardData(CardData cardData)
@@ -30,9 +30,21 @@ public class Card : MonoBehaviour
         backImage.sprite = cardData.backSprite;
     }
     
+    public void SetMatched()
+    {
+        isMatched = true;
+        // 카드의 시각적 요소를 비활성화하지만, GameObject는 그대로 두어 Grid Layout의 자리가 유지되도록 함.
+        frontImage.enabled = false;
+        backImage.enabled = false;
+        
+        // RaycastTarget도 비활성화하여 상호작용 차단 가능
+        var button = GetComponent<Button>();
+        if (button != null) button.interactable = false;
+    }
+    
     public void ForceFlipCard()
     {
-        flipped = false; // 강제로 false 설정
+        flipped = false;
         frontImage.enabled = false;
         backImage.enabled = true;
     }

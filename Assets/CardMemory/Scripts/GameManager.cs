@@ -126,11 +126,8 @@ public class GameManager : MonoBehaviour
                 score += level;
                 
                 // 정답시 카드 삭제
-                CardManager.instance.RemoveCardFromList(firstCard);
-                CardManager.instance.RemoveCardFromList(secondCard);
-                
-                Destroy(firstCard, 0.5f);
-                Destroy(secondCard, 0.5f);
+                firstCardData.SetMatched();
+                secondCardData.SetMatched();
                 
                 firstCard = null;
                 secondCard = null;
@@ -161,9 +158,20 @@ public class GameManager : MonoBehaviour
     private IEnumerator WaitAndCheckAllCardsMatched(float delay)
     {
         yield return new WaitForSeconds(delay);
-        isProcessingMatch = false; // 다시 클릭 가능
-
-        if (CardManager.instance.cards.Count == 0)
+        isProcessingMatch = false;
+        
+        // 모든 카드가 매치되었는지 확인 (cards 리스트의 모든 카드가 isMatched 인지)
+        bool allMatched = true;
+        foreach (var card in CardManager.instance.cards)
+        {
+            if (!card.GetComponent<Card>().isMatched)
+            {
+                allMatched = false;
+                break;
+            }
+        }
+        
+        if (allMatched)
         {
             StartCoroutine(DelayedLevelUp());
         }
@@ -179,6 +187,8 @@ public class GameManager : MonoBehaviour
     public void LevelUp()
     {
         level++;
+        // 다음 레벨로 넘어가기 전에 기존 카드 오브젝트들을 제거
+        CardManager.instance.ClearCards();
         InitializeTimer(); // 타이머 초기화
         selectCard();
         UpdateUI();
